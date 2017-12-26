@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <item name="title_fragment_content" type="id"/>
+    <item name="fragment_content" type="id"/>
+    <item name="custom_view" type="id"/>
+    <item name="pop_bg" type="id"/>
+    <item name="pop_layout" type="id"/>
+
+</resources>

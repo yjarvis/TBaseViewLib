@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@id/pop_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000" />
+
+    <LinearLayout
+        android:id="@id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <Button
+                android:id="@+id/wheelview_cancel"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:textColor="@color/black"
+                android:background="@drawable/gray_white_bg"
+                android:text="取消" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/wheelview_ok"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:textColor="@color/black"
+                android:background="@drawable/gray_white_bg"
+                android:text="确定" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <com.jarvis.tbaseviewlib.view.wheelview.AbWheelView
+                android:id="@+id/wheelview1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+            <com.jarvis.tbaseviewlib.view.wheelview.AbWheelView
+                android:id="@+id/wheelview2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:background="@color/white" />
+
+            <com.jarvis.tbaseviewlib.view.wheelview.AbWheelView
+                android:id="@+id/wheelview3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:background="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

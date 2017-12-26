@@ -1,0 +1,15 @@
+<resources>
+
+    <declare-styleable name="AutoAdView">
+        <attr name="isEnableDots" format="boolean" />
+        <attr name="isEnableAutoPlay" format="boolean" />
+        <attr name="dotsPoistion" format="enum">
+            <enum name="left" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="ad_background" format="reference" />
+        <attr name="intervalTime" format="integer" />
+    </declare-styleable>
+
+</resources>

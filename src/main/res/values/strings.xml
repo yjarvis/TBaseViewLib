@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="toast_http_err_inter">暂无网络连接，请检查网络</string>
+    <string name="toast_http_err_nodata">暂无数据返回</string>
+    <string name="toast_http_err_data">数据解析错误</string>
+    <string name="toast_http_err">服务器异常，请稍后再试</string>
+    <string name="toast_http_loading">"正在加载..."</string>
+    <string name="toast_choice_image_max_number">最多选择#张图片</string>
+    <string name="toast_sdcar_err">无存储卡，无法使用拍照功能</string>
+    <string name="toast_photo_fail">选择图片失败</string>
+    <string name="toast_photo_cancle">取消选择图片</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在刷新...</string>
+    <string name="xlistview_header_hint_succeed">刷新成功</string>
+    <string name="xlistview_header_hint_fail">刷新失败</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_loading">正在加载...</string>
+    <string name="xlistview_footer_hint_succeed">加载成功</string>
+    <string name="xlistview_footer_hint_fail">加载失败</string>
+    <string name="xlistview_last_update">上次更新:&#160;</string>
+    <string name="xlistview_seconds_ago">&#160;秒之前</string>
+    <string name="xlistview_minutes_ago">&#160;分钟之前</string>
+    <string name="xlistview_hours_ago">&#160;小时之前</string>
+    
+    
+    
+    
+    
+    <string name="choice_image_title">选择相册</string>
+    <string name="choice_image_scaner">预览</string>
+    <string name="error_scaner">请先选择图片</string>
+    <string name="choice_image_ok">确定</string>
+    <string name="update_cancle">取消</string>
+    <string name="update_down">更新</string>
+    <string name="update_title">应用更新</string>
+    <string name="update_info">有新的软件包哦，下载看看！</string>
+    <string name="update_loading">应用更新中，请稍后...</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 文字黑色 -->
+    <color name="textblack">#000000</color>
+    <!-- 文字灰色 -->
+    <color name="textgray">#646464</color>
+    <!--<color name="textgray">#999999</color>-->
+
+    <!-- 标题栏背景 -->
+    <color name="titleBg">#D22C2C</color>
+
+    <!-- 全透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 黑色80%的透明度 -->
+    <color name="blackLight80">#80000000</color>
+    <!-- 黑色90%的透明度 -->
+    <color name="blackLight90">#90000000</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 蓝色 -->
+    <color name="blue">#ff2069ff</color>
+    <!-- 浅蓝色 -->
+    <color name="bluelight">#58ADFE</color>
+    <!-- 大红色 -->
+    <color name="red">#ffdc2827</color>
+    <!-- 小红色 -->
+    <color name="redlight">#ffff5460</color>
+    <!-- 灰色 -->
+    <color name="gray">#ffdadada</color>
+    <!-- 浅灰色 -->
+    <color name="graylight">#fff3f3f3</color>
+    <color name="graylight2">#EDEDED</color>
+    <!-- 绿色 -->
+    <color name="green">#A6F857</color>
+    <!-- 橙色 -->
+    <color name="orange">#FF6000</color>
+
+</resources>

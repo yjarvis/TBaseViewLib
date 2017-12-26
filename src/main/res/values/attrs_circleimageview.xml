@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <!-- 以下是重用attr的正确姿势,一切为了在布局中可以自动提示 -->
+    <!-- 圆形边框宽度 -->
+    <attr name="border_width" format="dimension" />
+    <!-- 圆形边框颜色 -->
+    <attr name="border_color" format="color" />
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" />
+        <attr name="border_color" />
+    </declare-styleable>
+</resources>
